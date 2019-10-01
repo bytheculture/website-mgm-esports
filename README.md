@@ -2,10 +2,10 @@
 ## Domain && Hosting
 
 ## Tech Stack
-HTML/CSS
-Jekyll Theming
-Git
-GitHub
+- HTML/CSS
+- Jekyll Theming
+- Git
+- GitHub
 
 ## Branches
 Test
