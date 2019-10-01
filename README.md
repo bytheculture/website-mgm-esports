@@ -13,10 +13,10 @@ Test
 Master
 
 ## Data 
-events.yml
-liveMatch.yml
-pictures.yml
-slider.yml
+- events.yml
+- liveMatch.yml
+- pictures.yml
+- slider.yml
 
 ## Images
 All images are located in assets/images .
