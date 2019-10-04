@@ -1,6 +1,8 @@
 # MGM Esports & Gaming Website
 ## Domain && Hosting
+Namecheap - mgmesports.site
 
+GitHub Pages
 ## Tech Stack
 - HTML/CSS
 - Jekyll Theming
