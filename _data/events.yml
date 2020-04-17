@@ -1,3 +1,11 @@
+-  header: Rainbow 6 Siege Community Tournament
+   eventDate: May 16 2020
+   gameCategory: Shooter
+   paragraphText: Compete in our first online-only and competitive R6: Siege community tournament!
+   eventLink: https://forms.gle/2vtdmDXDkyZKYmGcA
+   flyerImage: May-16-R6-Flyer-Final.png
+   flyerImageAlt: Rainbow 6: Siege Tournament Flyer
+   thumbnailImage: r6-siege-wallpaper.jpg
 -  header: 1v1 Super Smash Bros. Ultimate Tournament
    eventDate: Feb 1 2020
    gameCategory: Fighter
@@ -21,10 +29,3 @@
    flyerImage: CODTourney.PNG
    flyerImageAlt: Call Of Duty Image
    thumbnailImage: COD.jpg
--  header: CS:GO TOURNAMENT
-   eventDate: Aug 27, 2019
-   gameCategory: FPS
-   paragraphText: We welcome you to join us for a grueling and intense competitive eSports tournament featuring Valves' famous and long-standing FPS, CS:GO!
-   flyerImage: csgoThumb.jpeg
-   flyerImageAlt: CSGO Image
-   thumbnailImage: csgo.jpg
