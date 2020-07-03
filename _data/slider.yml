@@ -1,9 +1,15 @@
 -  header: 5v5 CS:GO AFITC Tournament
    paragraphText: Join us for our 2nd annual AFITC CS:GO tournament!
-   eventLink: https://www.eventbrite.com/o/chance-crawford-23389388607
+   eventLink: https://afitc-csgo-tournament.eventbrite.com
    sliderImage: counter_strike_hd_pic.jpg
    sliderImageAlt: CSGO AFITC Tournament Flyer
-   thumbnailImage: csgo-aug-2020-initial.png
+   thumbnailImage: afitc-csgo-flyer-final-2020.png
+-  header: 1v1 SSBU Online Community Tournament
+   paragraphText: Join us for our first online Smash Ultimate tournament!
+   eventLink: https://smash.gg/tournament/mgm-esports-and-gaming-super-smash-bros-ultimate-community-tournament/
+   sliderImage: smash.jpg
+   sliderImageAlt: SSBU Image
+   thumbnailImage: nintendo_switch_logo_wallpaper.png
 -  header: 1v1 Super Smash Bros. Ultimate Tournament
    paragraphText: Get ready to brawl in our long-awaited 1v1 Super Smash Bros. Ultimate tournament!
    eventLink: https://mgmeandg_ssbu.eventbrite.com
@@ -16,8 +22,3 @@
    sliderImage: rocket_league_background.jpg
    sliderImageAlt: Rocket League Tournament Flyer
    thumbnailImage: rocket_league_background.jpg
--  header: Call of Duty:Black Ops 4 Tournament - OCT 26 2019
-   paragraphText: We are extremely excited to be hosting our next tournament at MGMWerx again as well as revisiting the popular Call of Duty series for a competitive regulation 5v5 tournament on PS4!
-   sliderImage: COD.jpg
-   sliderImageAlt: Call Of Duty Image
-   thumbnailImage: CODTourney.PNG
