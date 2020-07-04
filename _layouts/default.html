@@ -28,7 +28,8 @@
    <!-- START: Styles -->
 
    <!-- Google Fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,700" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,700" rel="stylesheet"
+      type="text/css">
 
    <!-- Bootstrap -->
    <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
@@ -87,12 +88,20 @@
          <div class="container">
             <div class="nk-contacts-left">
                <ul class="nk-social-links">
-                  <li><a target="_blank" class="nk-social-discord" href="https://discord.gg/SaHf9YR"><span class="fab fa-discord"></span></a></li>
-                  <li><a target="_blank" class="nk-social-twitch" href="https://www.twitch.tv/mgmesportsandgaming"><span class="fab fa-twitch"></span></a></li>
-                  <li><a target="_blank" class="nk-social-facebook" href="https://www.facebook.com/MGMEandG/"><span class="fab fa-facebook"></span></a></li>
-                  <li><a target="_blank" class="nk-social-slack" href="https://join.slack.com/t/mgmesportsandgaming/shared_invite/enQtNzcwMzY4NzkxNTM2LTlmNDljNjI0MWVlMzViNDQ1ODdlYWUyNjU3NjIzMWFmZjkwOTAyZjA4YzhlNDc5MzE4MzBjOWM1ZjJhZjNmOTk"><span class="fab fa-slack"></span></a></li>
-                  <li><a target="_blank" class="nk-social-twitter" href="https://twitter.com/MGM_E_and_G" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                  <li><a target="_blank" class="nk-social-instagram" href="https://www.instagram.com/mgmesportsandgaming"><span class="fab fa-instagram"></span></a></li>
+                  <li><a target="_blank" class="nk-social-discord" href="https://discord.gg/SaHf9YR"><span
+                           class="fab fa-discord"></span></a></li>
+                  <li><a target="_blank" class="nk-social-twitch" href="https://www.twitch.tv/mgmesportsandgaming"><span
+                           class="fab fa-twitch"></span></a></li>
+                  <li><a target="_blank" class="nk-social-facebook" href="https://www.facebook.com/MGMEandG/"><span
+                           class="fab fa-facebook"></span></a></li>
+                  <li><a target="_blank" class="nk-social-slack"
+                        href="https://join.slack.com/t/mgmesportsandgaming/shared_invite/enQtNzcwMzY4NzkxNTM2LTlmNDljNjI0MWVlMzViNDQ1ODdlYWUyNjU3NjIzMWFmZjkwOTAyZjA4YzhlNDc5MzE4MzBjOWM1ZjJhZjNmOTk"><span
+                           class="fab fa-slack"></span></a></li>
+                  <li><a target="_blank" class="nk-social-twitter" href="https://twitter.com/MGM_E_and_G"
+                        target="_blank"><span class="fab fa-twitter"></span></a></li>
+                  <li><a target="_blank" class="nk-social-instagram"
+                        href="https://www.instagram.com/mgmesportsandgaming"><span class="fab fa-instagram"></span></a>
+                  </li>
                </ul>
             </div>
          </div>
@@ -119,16 +128,16 @@
 
                <ul class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">
                   <li class="nk-drop-item">
-                     <li>
-                        <a href="#about">
-                           About
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#events">
-                           Events
-                        </a>
-                     </li>
+                  <li>
+                     <a href="#about">
+                        About
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#events">
+                        Events
+                     </a>
+                  </li>
                   </li>
                   <li>
                      <a href="#live-event">
@@ -201,14 +210,16 @@
          <!-- START: Image Slider -->
          <div class="nk-image-slider" data-autoplay="8000">
             {% for sliderItem in site.data.slider %}
-               <div class="nk-image-slider-item">
-                  <img src="assets/images/{{ sliderItem.sliderImage }}" alt="{{ sliderItem.sliderImageAlt }}" class="nk-image-slider-img" data-thumb="assets/images/{{ sliderItem..thumbnailImage }}">
-                  <div class="nk-image-slider-content">
-                     <h3 class="h4">{{ sliderItem.header }}</h3>
-                     <p class="text-white">{{ sliderItem.paragraphText }}</p>
-                     <a href="{{ sliderItem.eventLink }}" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-hover-color-main-1">Register</a>
-                  </div>
+            <div class="nk-image-slider-item">
+               <img src="assets/images/{{ sliderItem.sliderImage }}" alt="{{ sliderItem.sliderImageAlt }}"
+                  class="nk-image-slider-img" data-thumb="assets/images/{{ sliderItem..thumbnailImage }}">
+               <div class="nk-image-slider-content">
+                  <h3 class="h4">{{ sliderItem.header }}</h3>
+                  <p class="text-white">{{ sliderItem.paragraphText }}</p>
+                  <a href="{{ sliderItem.eventLink }}"
+                     class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-hover-color-main-1">Register</a>
                </div>
+            </div>
             {% endfor %}
          </div>
          <!-- END: Image Slider -->
@@ -237,8 +248,10 @@
                            <p>{{ event.paragraphText }}</p>
                            <a href="{{ event.eventLink }}" class="nk-news-box-item-more">>Register</a>
                         </div>
-                        <a href="https://afitc-csgo-tournament.eventbrite.com" class="nk-news-box-item-url"> Register</a>
-                        <div class="nk-news-box-item-date"><span class="fa fa-calendar"></span>{{ event.eventDate }}</div>
+                        <a href="https://afitc-csgo-tournament.eventbrite.com" class="nk-news-box-item-url">
+                           Register</a>
+                        <div class="nk-news-box-item-date"><span class="fa fa-calendar"></span>{{ event.eventDate }}
+                        </div>
                      </div>
                      {% endfor %}
 
@@ -257,7 +270,8 @@
                      </div>
                      <h3 class="nk-news-box-item-title">Smell magic in the air. Or maybe barbecue</h3>
                      <div class="nk-news-box-item-text">
-                        <p>With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what a change between to-day and yesterday! Now I am friendless and alone...</p>
+                        <p>With what mingled joy and sorrow do I take up the pen to write to my dearest friend! Oh, what
+                           a change between to-day and yesterday! Now I am friendless and alone...</p>
                      </div>
                      <div class="nk-news-box-item-date">
                         <span class="fa fa-calendar"></span> Sep 18, 2018
@@ -278,7 +292,8 @@
                   </div>
                   <div class="nk-feature-cont">
                      <h3 class="nk-feature-title"><a href="#"></a>Tournament</h3>
-                     <h4 class="nk-feature-title text-main-1"><a target="_blank" href="https://afitc-csgo-tournament.eventbrite.com">Sign Up!</a></h4>
+                     <h4 class="nk-feature-title text-main-1"><a target="_blank"
+                           href="https://afitc-csgo-tournament.eventbrite.com">Sign Up!</a></h4>
                   </div>
                </div>
             </div>
@@ -289,7 +304,8 @@
                   </div>
                   <div class="nk-feature-cont">
                      <h3 class="nk-feature-title"><a href="#">Discord</a></h3>
-                     <h4 class="nk-feature-title text-main-1"><a target="_blank" href="https://discord.gg/SaHf9YR">Join Now!</a></h4>
+                     <h4 class="nk-feature-title text-main-1"><a target="_blank" href="https://discord.gg/SaHf9YR">Join
+                           Now!</a></h4>
                   </div>
                </div>
             </div>
@@ -300,7 +316,8 @@
                   </div>
                   <div class="nk-feature-cont">
                      <h3 class="nk-feature-title"><a href="">Survey</a></h3>
-                     <h3 class="nk-feature-title text-main-1"><a target="_blank" href="https://www.surveymonkey.com/r/95YMZ5F">Got Feedback?</a></h3>
+                     <h3 class="nk-feature-title text-main-1"><a target="_blank"
+                           href="https://www.surveymonkey.com/r/95YMZ5F">Got Feedback?</a></h3>
                   </div>
                </div>
             </div>
@@ -316,13 +333,16 @@
             <div class="col-lg-9">
                <div class="nk-box-2 bg-dark-2">
                   <h3 class="nk-decorated-h-3"><span>Who We Are</span></h3>
-                  We are an organization dedicated to bringing the joy and competitiveness of esports and gaming to the community of Montgomery. We specifically want to impact high school students, college students, and active duty military from Maxwell and Maxwell-Gunter Air Force bases.
+                  We are an organization dedicated to bringing the joy and competitiveness of esports and gaming to the
+                  community of Montgomery. We specifically want to impact high school students, college students, and
+                  active duty military from Maxwell and Maxwell-Gunter Air Force bases.
                   <div class="nk-gap"></div>
-                  <img src="assets/images/cod_player_brief.jpg" width="70%" height="60%" alt="Picture of MGM_E_and_G organizers at CoD event">
+                  <img src="assets/images/cod_player_brief.webp" width="70%" height="60%"
+                     alt="Picture of MGM_E_and_G organizers at CoD event">
 
 
                   <h3 class="nk-decorated-h-3"><span>Sponsors</span></h3>
-                  <img src="assets/images/afcea.png" width="30%" height="15%" alt="AFCEA logo">
+                  <img src="assets/images/afcea.webp" width="30%" height="15%" alt="AFCEA logo">
                   <img src="assets/images/techMGMlogo.png" width="35%" height="10%" alt="TechMGM logo">
 
                </div>
@@ -331,7 +351,7 @@
             </div>
             <div class="nk-gap"></div>
 
-         <!-- END: About -->
+            <!-- END: About -->
 
             <div class="col-lg-3">
                <!--
@@ -347,12 +367,22 @@
                      <h4 class="nk-widget-title"><span><span class="text-main-1">Social</span> Media</span></h4>
                      <div class="nk-widget-content">
                         <ul class="nk-social-links-3 nk-social-links-cols-3">
-                           <li><a target="_blank" class="nk-social-discord" href="https://discord.gg/SaHf9YR"><span class="fab fa-discord"></span></a></li>
-                           <li><a target="_blank" class="nk-social-twitch" href="https://www.twitch.tv/mgmesportsandgaming"><span class="fab fa-twitch"></span></a></li>
-                           <li><a target="_blank" class="nk-social-facebook" href="https://www.facebook.com/MGMEandG/"><span class="fab fa-facebook"></span></a></li>
-                           <li><a target="_blank" class="nk-social-slack" href="https://join.slack.com/t/mgmesportsandgaming/shared_invite/enQtNzcwMzY4NzkxNTM2LTlmNDljNjI0MWVlMzViNDQ1ODdlYWUyNjU3NjIzMWFmZjkwOTAyZjA4YzhlNDc5MzE4MzBjOWM1ZjJhZjNmOTk"><span class="fab fa-slack"></span></a></li>
-                           <li><a target="_blank" class="nk-social-twitter" href="https://twitter.com/MGM_E_and_G" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                           <li><a target="_blank" class="nk-social-instagram" href="https://www.instagram.com/mgmesportsandgaming"><span class="fab fa-instagram"></span></a></li>
+                           <li><a target="_blank" class="nk-social-discord" href="https://discord.gg/SaHf9YR"><span
+                                    class="fab fa-discord"></span></a></li>
+                           <li><a target="_blank" class="nk-social-twitch"
+                                 href="https://www.twitch.tv/mgmesportsandgaming"><span
+                                    class="fab fa-twitch"></span></a></li>
+                           <li><a target="_blank" class="nk-social-facebook"
+                                 href="https://www.facebook.com/MGMEandG/"><span class="fab fa-facebook"></span></a>
+                           </li>
+                           <li><a target="_blank" class="nk-social-slack"
+                                 href="https://join.slack.com/t/mgmesportsandgaming/shared_invite/enQtNzcwMzY4NzkxNTM2LTlmNDljNjI0MWVlMzViNDQ1ODdlYWUyNjU3NjIzMWFmZjkwOTAyZjA4YzhlNDc5MzE4MzBjOWM1ZjJhZjNmOTk"><span
+                                    class="fab fa-slack"></span></a></li>
+                           <li><a target="_blank" class="nk-social-twitter" href="https://twitter.com/MGM_E_and_G"
+                                 target="_blank"><span class="fab fa-twitter"></span></a></li>
+                           <li><a target="_blank" class="nk-social-instagram"
+                                 href="https://www.instagram.com/mgmesportsandgaming"><span
+                                    class="fab fa-instagram"></span></a></li>
                         </ul>
                      </div>
                   </div>
@@ -365,8 +395,8 @@
             </div>
             </aside>
             <!-- END: Sidebar -->
-</div>
-            <div class="nk-gap"></div>
+         </div>
+         <div class="nk-gap"></div>
 
          <div class="nk-gap"></div>
 
@@ -377,7 +407,8 @@
             <div class="col-md-12">
                {% for bracket in site.data.liveMatch %}
                <div class="responsive-embed responsive-embed-16x9">
-                  <iframe src="https://challonge.com/{{ bracket.challongeID }}/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                  <iframe src="https://challonge.com/{{ bracket.challongeID }}/module" width="100%" height="500"
+                     frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
                </div>
                <div class="nk-gap"></div>
 
@@ -386,7 +417,9 @@
                <div class="nk-gap"></div>
 
                <div class="responsive-embed responsive-embed-16x9">
-                  <iframe src="https://player.twitch.tv/?channel=mgmesportsandgaming&parent=mgmesports.site&autoplay=false" height="400" width="620" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+                  <iframe
+                     src="https://player.twitch.tv/?channel=mgmesportsandgaming&parent=mgmesports.site&autoplay=false"
+                     height="400" width="620" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
                </div>
             </div>
          </div>
@@ -415,8 +448,8 @@
          <!-- END: Latest Pictures -->
 
 
-         </div>
       </div>
+   </div>
    </div>
    </div>
 
@@ -435,19 +468,20 @@
                   <h4 class="nk-widget-title"><span class="text-main-1">Contact</span> Us</h4>
                   <div class="nk-widget-content">
                      <form action="https://formspree.io/chancecmontano@gmail.com" method="POST" class="nk-form">
-                           <div class="row vertical-gap sm-gap">
-                              <div class="col-md-6">
-                                   <input type="email" class="form-control required" name="email" placeholder="Email *">
-                              </div>
-                              <div class="col-md-6">
-                                   <input type="text" class="form-control required" name="name" placeholder="Name *">
-                              </div>
+                        <div class="row vertical-gap sm-gap">
+                           <div class="col-md-6">
+                              <input type="email" class="form-control required" name="email" placeholder="Email *">
                            </div>
+                           <div class="col-md-6">
+                              <input type="text" class="form-control required" name="name" placeholder="Name *">
+                           </div>
+                        </div>
                         <div class="nk-gap"></div>
-                        <textarea class="form-control required" name="message" rows="5" placeholder="Message *"></textarea>
+                        <textarea class="form-control required" name="message" rows="5"
+                           placeholder="Message *"></textarea>
                         <div class="nk-gap-1"></div>
                         <button type="submit" value="Send" class="nk-btn nk-btn-rounded nk-btn-color-white">
-                           <span class="icon">Send  <i class="ion-paper-airplane"></i></span>
+                           <span class="icon">Send <i class="ion-paper-airplane"></i></span>
                         </button>
                         <div class="nk-form-response-success"></div>
                         <div class="nk-form-response-error"></div>
@@ -466,12 +500,20 @@
             </div>
             <div class="nk-copyright-right">
                <ul class="nk-social-links-2">
-                  <li><a target="_blank" class="nk-social-discord" href="https://discord.gg/SaHf9YR"><span class="fab fa-discord"></span></a></li>
-                  <li><a target="_blank" class="nk-social-twitch" href="https://www.twitch.tv/mgmesportsandgaming"><span class="fab fa-twitch"></span></a></li>
-                  <li><a target="_blank" class="nk-social-facebook" href="https://www.facebook.com/MGMEandG/"><span class="fab fa-facebook"></span></a></li>
-                  <li><a target="_blank" class="nk-social-slack" href="https://join.slack.com/t/mgmesportsandgaming/shared_invite/enQtNzcwMzY4NzkxNTM2LTlmNDljNjI0MWVlMzViNDQ1ODdlYWUyNjU3NjIzMWFmZjkwOTAyZjA4YzhlNDc5MzE4MzBjOWM1ZjJhZjNmOTk"><span class="fab fa-slack"></span></a></li>
-                  <li><a target="_blank" class="nk-social-twitter" href="https://twitter.com/MGM_E_and_G" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                  <li><a target="_blank" class="nk-social-instagram" href="https://www.instagram.com/mgmesportsandgaming"><span class="fab fa-instagram"></span></a></li>
+                  <li><a target="_blank" class="nk-social-discord" href="https://discord.gg/SaHf9YR"><span
+                           class="fab fa-discord"></span></a></li>
+                  <li><a target="_blank" class="nk-social-twitch" href="https://www.twitch.tv/mgmesportsandgaming"><span
+                           class="fab fa-twitch"></span></a></li>
+                  <li><a target="_blank" class="nk-social-facebook" href="https://www.facebook.com/MGMEandG/"><span
+                           class="fab fa-facebook"></span></a></li>
+                  <li><a target="_blank" class="nk-social-slack"
+                        href="https://join.slack.com/t/mgmesportsandgaming/shared_invite/enQtNzcwMzY4NzkxNTM2LTlmNDljNjI0MWVlMzViNDQ1ODdlYWUyNjU3NjIzMWFmZjkwOTAyZjA4YzhlNDc5MzE4MzBjOWM1ZjJhZjNmOTk"><span
+                           class="fab fa-slack"></span></a></li>
+                  <li><a target="_blank" class="nk-social-twitter" href="https://twitter.com/MGM_E_and_G"
+                        target="_blank"><span class="fab fa-twitter"></span></a></li>
+                  <li><a target="_blank" class="nk-social-instagram"
+                        href="https://www.instagram.com/mgmesportsandgaming"><span class="fab fa-instagram"></span></a>
+                  </li>
                </ul>
             </div>
          </div>

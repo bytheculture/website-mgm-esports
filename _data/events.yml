@@ -1,32 +1,32 @@
--  header: 5v5 CS:GO AFITC Tournament
-   eventDate:  Aug 26 & 27
-   gameCategory: FPS
-   paragraphText: Join us for our 2nd annual AFITC CS:GO tournament!
-   eventLink: https://afitc-csgo-tournament.eventbrite.com
-   flyerImage: afitc-csgo-flyer-final-2020.png
-   flyerImageAlt: CSGO AFITC Tournament Flyer
-   thumbnailImage: counter_strike_hd_pic.jpg
--  header: 1v1 SSBU Online Community Tournament
-   eventDate:  July 25 2020
-   gameCategory: Fighter
-   paragraphText: Join us for our first online Smash Ultimate tournament!
-   eventLink: https://smash.gg/tournament/mgm-esports-and-gaming-super-smash-bros-ultimate-community-tournament/
-   flyerImage: nintendo_switch_logo_wallpaper.png
-   flyerImageAlt: Nintendo Switch HD Background
-   thumbnailImage: smash.jpg
--  header: 1v1 Super Smash Bros. Ultimate Tournament
-   eventDate:  Feb 1 2020
-   gameCategory: Fighter
-   paragraphText: Get ready to brawl in our long-awaited 1v1 Super Smash Bros. Ultimate tournament!
-   eventLink: https://mgmeandg_ssbu.eventbrite.com
-   flyerImage: Feb1st_Smash_Flyer.png
-   flyerImageAlt: SSBU Tournament Flyer
-   thumbnailImage: smash.jpg
--  header: Rocket League 3v3 Tournament
-   eventDate:  Dec 13 2019
-   gameCategory: Other
-   paragraphText: We're coming back with our next tournament and shifting gears into a 3v3 Rocket League tournament on PC, open to everyone!
-   eventLink: https://mgmeandg_rocketleague.eventbrite.com
-   flyerImage: rocketLeagueFlyer.png
-   flyerImageAlt: Rocket League Tournament Flyer
-   thumbnailImage: rocket_league_background.jpg
+- header: 5v5 CS:GO AFITC Tournament
+  eventDate: Aug 26 & 27
+  gameCategory: FPS
+  paragraphText: Join us for our 2nd annual AFITC CS:GO tournament!
+  eventLink: https://afitc-csgo-tournament.eventbrite.com
+  flyerImage: afitc-csgo-flyer-final-2020.webp
+  flyerImageAlt: CSGO AFITC Tournament Flyer
+  thumbnailImage: counter_strike_hd_pic.webp
+- header: 1v1 SSBU Online Community Tournament
+  eventDate: July 25 2020
+  gameCategory: Fighter
+  paragraphText: Join us for our first online Smash Ultimate tournament!
+  eventLink: https://smash.gg/tournament/mgm-esports-and-gaming-super-smash-bros-ultimate-community-tournament/
+  flyerImage: nintendo_switch_logo_wallpaper.webp
+  flyerImageAlt: Nintendo Switch HD Background
+  thumbnailImage: smash.jpg
+- header: 1v1 Super Smash Bros. Ultimate Tournament
+  eventDate: Feb 1 2020
+  gameCategory: Fighter
+  paragraphText: Get ready to brawl in our long-awaited 1v1 Super Smash Bros. Ultimate tournament!
+  eventLink: https://mgmeandg_ssbu.eventbrite.com
+  flyerImage: Feb1st_Smash_Flyer.webp
+  flyerImageAlt: SSBU Tournament Flyer
+  thumbnailImage: smash.jpg
+- header: Rocket League 3v3 Tournament
+  eventDate: Dec 13 2019
+  gameCategory: Other
+  paragraphText: We're coming back with our next tournament and shifting gears into a 3v3 Rocket League tournament on PC, open to everyone!
+  eventLink: https://mgmeandg_rocketleague.eventbrite.com
+  flyerImage: rocketLeagueFlyer.webp
+  flyerImageAlt: Rocket League Tournament Flyer
+  thumbnailImage: rocket_league_background.webp
