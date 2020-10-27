@@ -1,3 +1,11 @@
+- header: 1v1 SSBU Fall Singles Tournament
+  eventDate: Oct 30 2020
+  gameCategory: Fighter
+  paragraphText: Join us for our next online Smash Ultimate tournament!
+  eventLink: https://smash.gg/tournament/mgm-esports-and-gaming-fall-singles-tournament-1/
+  flyerImage: SSBU-MGM-October-Tournament.png
+  flyerImageAlt: SSBU Fall Singles Flyer
+  thumbnailImage: smash.jpg
 - header: 5v5 CS:GO AFITC Tournament
   eventDate: Aug 26 & 27
   gameCategory: FPS
@@ -22,11 +30,3 @@
   flyerImage: Feb1st_Smash_Flyer.webp
   flyerImageAlt: SSBU Tournament Flyer
   thumbnailImage: smash.jpg
-- header: Rocket League 3v3 Tournament
-  eventDate: Dec 13 2019
-  gameCategory: Other
-  paragraphText: We're coming back with our next tournament and shifting gears into a 3v3 Rocket League tournament on PC, open to everyone!
-  eventLink: https://mgmeandg_rocketleague.eventbrite.com
-  flyerImage: rocketLeagueFlyer.webp
-  flyerImageAlt: Rocket League Tournament Flyer
-  thumbnailImage: rocket_league_background.webp
