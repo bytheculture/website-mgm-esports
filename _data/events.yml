@@ -1,3 +1,11 @@
+- header: 2v2 MITS CoD: Cold War Tournament
+  eventDate: May 22 2021
+  gameCategory: FPS
+  paragraphText: Join us for our first CoD: Cold War tournament for MITS 2021!
+  eventLink: https://afcea-mits-cod.eventbrite.com
+  flyerImage: MGM_2v2_Cold_War_Flyer.png
+  flyerImageAlt: MITS 2021 CoD:CW Flyer
+  thumbnailImage: cod_cw_image.jpg
 - header: 3v3 NCSE Rocket League Tournament
   eventDate: Dec 12 2020
   gameCategory: Other
@@ -22,11 +30,3 @@
   flyerImage: afitc-csgo-flyer-final-2020.webp
   flyerImageAlt: CSGO AFITC Tournament Flyer
   thumbnailImage: counter_strike_hd_pic.webp
-- header: 1v1 SSBU Online Community Tournament
-  eventDate: July 25 2020
-  gameCategory: Fighter
-  paragraphText: Join us for our first online Smash Ultimate tournament!
-  eventLink: https://smash.gg/tournament/mgm-esports-and-gaming-super-smash-bros-ultimate-community-tournament/
-  flyerImage: nintendo_switch_logo_wallpaper.webp
-  flyerImageAlt: Nintendo Switch HD Background
-  thumbnailImage: smash.jpg
